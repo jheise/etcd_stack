@@ -18,3 +18,5 @@ services:
         max-size: "1m"
         max-file: "5"
     restart: unless-stopped
+volumes:
+  - etcd_data
