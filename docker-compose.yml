@@ -19,4 +19,4 @@ services:
         max-file: "5"
     restart: unless-stopped
 volumes:
-  - etcd_data
+  etcd_data:
